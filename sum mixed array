@@ -1,0 +1,9 @@
+function sumMix(x){
+  let sum =  0
+for(i = 0; i <= x.length - 1; i++){
+ 
+  sum += Number(x[i])
+ 
+}return sum
+  }
+ 
