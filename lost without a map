@@ -1,0 +1,6 @@
+function maps(x){
+  let x2 = []
+for(i = 0; i < x.length; i++){
+ x2.push(Number(x[i] * 2))}
+  return x2
+  }
