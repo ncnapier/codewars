@@ -1,0 +1,10 @@
+var countSheep = function (num){
+  //your code here
+  let sheepCount = ''
+  for(i = 1; i <= num; i++){
+if(num !== 0){sheepCount+=(`${i} sheep...`)}
+    else{
+      return ''
+    }
+}return sheepCount
+  }
