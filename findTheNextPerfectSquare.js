@@ -1,6 +1,6 @@
 function findNextSquare(sq) {
   if(Number.isInteger(Math.sqrt(sq))){
-  for(i = sq + 1; i < 5000000000000000000000000000000000000000000000000; i++){
+  for(i = sq + 1; i > 0; i++){
     if(Number.isInteger(Math.sqrt(i))){
        return i}
        }
