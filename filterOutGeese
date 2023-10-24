@@ -1,0 +1,8 @@
+function gooseFilter (birds) {
+   var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  let geeseSet = new Set(geese);
+  let newBirds = birds.filter((bird) => {
+    return !geeseSet.has(bird);
+  })
+  return newBirds
+  }
